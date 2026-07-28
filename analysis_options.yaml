@@ -1,0 +1,14 @@
+include: package:night_raven_insight/analysis_options.yaml
+
+linter:
+  rules:
+    # Enable manually until included by night_raven_insight.
+    simple_directive_paths: true
+    simplify_variable_pattern: true
+    switch_on_type: true
+    unnecessary_null_checks: true
+    unnecessary_unawaited: true
+    var_with_no_type_annotation: true
+
+formatter:
+  trailing_commas: preserve

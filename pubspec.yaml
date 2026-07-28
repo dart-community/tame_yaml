@@ -1,0 +1,22 @@
+name: tame_yaml
+description: >-
+  Decodes a strict, unambiguous subset of YAML 1.2
+  into immutable values of built-in Dart types.
+version: 0.1.0-wip
+repository: https://github.com/dart-community/tame_yaml
+
+environment:
+  sdk: ^3.12.0
+
+topics:
+  - config
+  - yaml
+
+dependencies:
+  meta: ^1.17.0
+
+dev_dependencies:
+  archive: ^4.0.9
+  http: ^1.6.0
+  night_raven_insight: ^4.0.0
+  test: ^1.31.2
